@@ -5,8 +5,8 @@ def count_strings(array)
 end
 
 def count_empty_strings(array)
-  array.count do |empty_string|
-    empty_string.is_a?(String) 
-    empty_string = ""
+  array.count do |vari|
+    vari = ""
+    
   end 
 end
