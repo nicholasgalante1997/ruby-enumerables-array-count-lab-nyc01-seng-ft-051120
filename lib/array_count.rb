@@ -6,7 +6,7 @@ end
 
 def count_empty_strings(array)
   array.count do |vari|
-    vari = ""
+    vari.to_i < 2 
     
   end 
 end
