@@ -5,8 +5,8 @@ def count_strings(array)
 end
 
 def count_empty_strings(array)
-  array.count do |vari|
-    vari.to_i < 2 
+  array.count do |strings_two|
+    strings_two
     
   end 
 end
